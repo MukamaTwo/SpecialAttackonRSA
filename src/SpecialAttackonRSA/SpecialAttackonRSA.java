@@ -6,7 +6,7 @@ import java.math.BigInteger;
 public class SpecialAttackonRSA {
 
 	public static void main(String[] args) {
-		String filename = "input.txt";
+		String filename = "/home/jo/input.txt";
 		BigInteger[] N = new BigInteger[3];
 		BigInteger[] e = new BigInteger[3];
 		BigInteger[] c = new BigInteger[3];
@@ -123,7 +123,7 @@ public class SpecialAttackonRSA {
 		BigInteger s =BigInteger.ZERO, r =BigInteger.ZERO;
 		BigInteger[] bezoutResult = new BigInteger[3];	
 
-		System.out.println("Method 1: Using the Chinese Reminder Theorem");
+		System.out.println("Using the Chinese Reminder Theorem");
 		
 	    for(int i=0; i<N.length-1;i++ ){
 			pq_product=pq_product.multiply(N[i+1]); 
