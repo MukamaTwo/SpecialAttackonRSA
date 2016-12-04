@@ -1,0 +1,25 @@
+# Compiled source #
+*.class
+*.exe
+*.o
+
+
+# Packages #
+*.gz
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+
+._*
+.Trashes
+Thumbs.db
+*.pdf
+*.doc
